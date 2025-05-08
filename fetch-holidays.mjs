@@ -10,6 +10,9 @@ const url = `https://www.googleapis.com/calendar/v3/calendars/${encodeURICompone
 fetch(url) // Google Calendar APIを呼び出す
   .then(res => res.json())
   .then(data => {
+    // 受け取ったデータの内容を確認
+    console.log(data);
+
     // data.itemsがundefinedの場合のチェック
     if (!data.items) {
       console.error("データにitemsが含まれていません。");
