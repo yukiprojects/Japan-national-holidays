@@ -2,7 +2,7 @@
 import fetch from 'node-fetch'; // ESM形式でインポート
 import fs from 'fs';
 
-const API_KEY = 'あなたのAPIキー';  // ここにGoogle APIキーを記入
+const API_KEY = 'AIzaSyBvshh5RfYd5Dcs04IoM8DSQnKpNlzGeGw';  // ここにGoogle APIキーを記入
 const calendarId = 'ja.japanese#holiday@group.v.calendar.google.com';  // 祝日カレンダーID
 const year = new Date().getFullYear();  // 現在の年を取得
 const url = `https://www.googleapis.com/calendar/v3/calendars/${encodeURIComponent(calendarId)}/events?key=${API_KEY}&timeMin=${year}-01-01T00:00:00Z&timeMax=${year + 1}-01-01T00:00:00Z`;
