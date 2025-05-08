@@ -21,7 +21,7 @@ jobs:
         run: npm install  # 依存関係をインストール
 
       - name: Run fetch script
-        run: node fetch-holidays.js  # スクリプトを実行
+        run: node fetch-holidays.mjs  # スクリプトを実行
 
       - name: Commit and push updated holidays JSON
         run: |
