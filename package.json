@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Fetch Japanese holidays from Google Calendar API",
   "main": "fetch-holidays.js",
-  "type": "module",  // これを追加
+  "type": "module", 
   "scripts": {
     "start": "node fetch-holidays.js"
   },
