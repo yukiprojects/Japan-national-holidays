@@ -25,7 +25,7 @@ jobs:
 
       - name: Commit and push updated holidays JSON
         run: |
-          YEAR=$(date +'%Y')  # 年をシェルで取得
+          YEAR=$(date +'%Y')  # 現在の年をシェルで取得
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
           git add *.json
