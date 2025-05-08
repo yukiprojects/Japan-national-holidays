@@ -2,10 +2,10 @@
   "name": "holiday-fetcher",
   "version": "1.0.0",
   "description": "Fetch Japanese holidays from Google Calendar API",
-  "main": "fetch-holidays.mjs",  // 拡張子を .mjs に修正
+  "main": "fetch-holidays.mjs",  
   "type": "module", 
   "scripts": {
-    "start": "node fetch-holidays.mjs"  // こちらも .mjs に修正
+    "start": "node fetch-holidays.mjs"  
   },
   "dependencies": {
     "node-fetch": "^3.0.0"
