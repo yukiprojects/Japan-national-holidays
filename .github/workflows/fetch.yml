@@ -1,0 +1,32 @@
+name: Fetch Japanese Holidays
+
+on:
+  schedule:
+    - cron: '0 0 1 * *'  # 毎月1日に実行
+  workflow_dispatch:  # 手動でも実行可能
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3  # リポジトリをクローン
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'  # Node.js のバージョン設定
+
+      - name: Install dependencies
+        run: npm install  # 依存関係をインストール
+
+      - name: Run fetch script
+        run: node fetch-holidays.js  # スクリプトを実行
+
+      - name: Commit and push updated holidays JSON
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add *.json
+          git commit -m "Update holidays for ${new Date().getFullYear()}"
+          git push
