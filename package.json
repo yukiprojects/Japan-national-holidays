@@ -1,0 +1,12 @@
+{
+  "name": "holiday-fetcher",
+  "version": "1.0.0",
+  "description": "Fetch Japanese holidays from Google Calendar API",
+  "main": "fetch-holidays.js",
+  "scripts": {
+    "start": "node fetch-holidays.js"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
