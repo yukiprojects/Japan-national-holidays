@@ -1,0 +1,137 @@
+[
+  {
+    "title": "建国記念の日",
+    "start": "2026-02-11",
+    "allDay": true
+  },
+  {
+    "title": "天皇誕生日",
+    "start": "2026-02-23",
+    "allDay": true
+  },
+  {
+    "title": "みどりの日",
+    "start": "2026-05-04",
+    "allDay": true
+  },
+  {
+    "title": "山の日",
+    "start": "2026-08-11",
+    "allDay": true
+  },
+  {
+    "title": "敬老の日",
+    "start": "2026-09-21",
+    "allDay": true
+  },
+  {
+    "title": "秋分の日",
+    "start": "2026-09-23",
+    "allDay": true
+  },
+  {
+    "title": "春分の日",
+    "start": "2026-03-20",
+    "allDay": true
+  },
+  {
+    "title": "スポーツの日",
+    "start": "2026-10-12",
+    "allDay": true
+  },
+  {
+    "title": "勤労感謝の日",
+    "start": "2026-11-23",
+    "allDay": true
+  },
+  {
+    "title": "元日",
+    "start": "2026-01-01",
+    "allDay": true
+  },
+  {
+    "title": "成人の日",
+    "start": "2026-01-12",
+    "allDay": true
+  },
+  {
+    "title": "昭和の日",
+    "start": "2026-04-29",
+    "allDay": true
+  },
+  {
+    "title": "憲法記念日",
+    "start": "2026-05-03",
+    "allDay": true
+  },
+  {
+    "title": "憲法記念日 振替休日",
+    "start": "2026-05-06",
+    "allDay": true
+  },
+  {
+    "title": "こどもの日",
+    "start": "2026-05-05",
+    "allDay": true
+  },
+  {
+    "title": "海の日",
+    "start": "2026-07-20",
+    "allDay": true
+  },
+  {
+    "title": "国民の休日",
+    "start": "2026-09-22",
+    "allDay": true
+  },
+  {
+    "title": "文化の日",
+    "start": "2026-11-03",
+    "allDay": true
+  },
+  {
+    "title": "雛祭り",
+    "start": "2026-03-03",
+    "allDay": true
+  },
+  {
+    "title": "銀行休業日",
+    "start": "2026-01-02",
+    "allDay": true
+  },
+  {
+    "title": "節分",
+    "start": "2026-02-03",
+    "allDay": true
+  },
+  {
+    "title": "母の日",
+    "start": "2026-05-10",
+    "allDay": true
+  },
+  {
+    "title": "七夕",
+    "start": "2026-07-07",
+    "allDay": true
+  },
+  {
+    "title": "七五三",
+    "start": "2026-11-15",
+    "allDay": true
+  },
+  {
+    "title": "クリスマス",
+    "start": "2026-12-25",
+    "allDay": true
+  },
+  {
+    "title": "銀行休業日",
+    "start": "2026-01-03",
+    "allDay": true
+  },
+  {
+    "title": "大晦日",
+    "start": "2026-12-31",
+    "allDay": true
+  }
+]
