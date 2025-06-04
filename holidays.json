@@ -105,11 +105,6 @@
     "allDay": true
   },
   {
-    "title": "銀行休業日",
-    "start": "2027-01-02",
-    "allDay": true
-  },
-  {
     "title": "雛祭り",
     "start": "2027-03-03",
     "allDay": true
@@ -127,6 +122,11 @@
   {
     "title": "大晦日",
     "start": "2027-12-31",
+    "allDay": true
+  },
+  {
+    "title": "銀行休業日",
+    "start": "2027-01-02",
     "allDay": true
   },
   {
@@ -225,11 +225,6 @@
     "allDay": true
   },
   {
-    "title": "銀行休業日",
-    "start": "2026-01-02",
-    "allDay": true
-  },
-  {
     "title": "節分",
     "start": "2026-02-03",
     "allDay": true
@@ -262,6 +257,11 @@
   {
     "title": "大晦日",
     "start": "2026-12-31",
+    "allDay": true
+  },
+  {
+    "title": "銀行休業日",
+    "start": "2026-01-02",
     "allDay": true
   },
   {
@@ -360,11 +360,6 @@
     "allDay": true
   },
   {
-    "title": "銀行休業日",
-    "start": "2025-01-02",
-    "allDay": true
-  },
-  {
     "title": "雛祭り",
     "start": "2025-03-03",
     "allDay": true
@@ -402,6 +397,11 @@
   {
     "title": "大晦日",
     "start": "2025-12-31",
+    "allDay": true
+  },
+  {
+    "title": "銀行休業日",
+    "start": "2025-01-02",
     "allDay": true
   }
 ]
